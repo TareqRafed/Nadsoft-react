@@ -13,6 +13,8 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.0.2",
+    "@commitlint/config-conventional": "^16.0.0",
     "@vitejs/plugin-react": "^1.0.7",
     "eslint": "^8.7.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -31,5 +33,20 @@
   },
   "lint-staged": {
     "*.{js,jsx}": "eslint --cache --fix"
+  },
+  "commitlint": {
+    "rules": {
+      "references-empty": [
+        2,
+        "never"
+      ]
+    },
+    "parserPreset": {
+      "parserOpts": {
+        "issuePrefixes": [
+          "NADSOFT-"
+        ]
+      }
+    }
   }
 }
