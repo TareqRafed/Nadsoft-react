@@ -6,3 +6,4 @@ dist-ssr
 Agent
 .eslintcache
 .gitconfig
+.vscode
