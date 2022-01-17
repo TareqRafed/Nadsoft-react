@@ -3,5 +3,7 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "cSpell.words": ["vite", "vitejs", "nadsot"]
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "cSpell.words": ["vite", "vitejs", "nadsot"],
+    "prettier.requireConfig": true
 }
