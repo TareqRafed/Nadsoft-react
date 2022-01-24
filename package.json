@@ -47,7 +47,8 @@
     "vite": "^2.7.2"
   },
   "lint-staged": {
-    "*.{js,jsx}": "eslint --cache --fix && stylelint '**/*.scss' "
+    "*.{js,jsx}": "eslint --cache --fix",
+    "*.scss": "stylelint --fix"
   },
   "commitlint": {
     "rules": {
