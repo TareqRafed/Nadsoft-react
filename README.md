@@ -10,6 +10,13 @@
 
 # Getting Started
 
+Got to package.json line 63
+change "NADSOFT-" to whatever jira prefixed tasks
+
+ex: "JOB360 uses JOB in jira" so we use "JOB-" instead of "NADSOFT-"
+
+using the prefix is required, or commitlinter will reject you commit, unless you change its rules 
+
 ```
 git clone https://github.com/TareqRafed/Nadsoft-react/
 yarn
