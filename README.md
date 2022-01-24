@@ -1,3 +1,13 @@
+# This template contains
+
+* React v17
+* Redux toolkit
+* ESlint
+* Stylelint
+* Vite
+* i18next
+* React router v6
+
 # Getting Started
 
 ```
