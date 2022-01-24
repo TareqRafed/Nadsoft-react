@@ -15,7 +15,7 @@ change "NADSOFT-" to whatever jira prefixed tasks
 
 ex: "JOB360 uses JOB in jira" so we use "JOB-" instead of "NADSOFT-"
 
-using the prefix is required, or commitlinter will reject you commit, unless you change its rules 
+using the prefix is required, or commit-lint will reject you commit, unless you change its rules 
 
 ```
 git clone https://github.com/TareqRafed/Nadsoft-react/
@@ -27,7 +27,7 @@ yarn dev
 # Recommended 
 
 Make sure to install Eslint, Stylelint, Prettier plugins using vscode market
-also I highly recommended to use these settings for vscode, to get the best dev expereience 
+also I highly recommend to use these settings for vscode, to get the best dev expereience 
 ```
 {
   "editor.formatOnSave": true,
