@@ -15,7 +15,7 @@ change "NADSOFT-" to whatever jira prefixed tasks
 
 ex: "JOB360 uses JOB in jira" so we use "JOB-" instead of "NADSOFT-"
 
-using the prefix is required, or commit-lint will reject you commit, unless you change its rules 
+using the prefix is required, or commit-lint will reject your commit, unless you change its rules 
 
 ```
 git clone https://github.com/TareqRafed/Nadsoft-react/
